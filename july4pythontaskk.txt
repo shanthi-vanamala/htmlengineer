@@ -1,0 +1,50 @@
+1.what is a string in python?
+A.In python,a string is a sequence of characters used to represent text.strings are a fundamental data type in python and are used extensively for handling and manipulating textual data.it has more key characteristics of python strings Once a string is created, its contents cannot be changed directly. Any operation that appears to modify a string, such as concatenation or slicing, actually results in the creation of a new string.
+2.what is indexing in a string?
+A.Indexing is the process of accessing an element in a sequence using its position in the sequence (its index). In Python, indexing starts from 0, which means the first element in a sequence is at position 0, the second element is at position 1,on so on.
+3.Given text='hello',what is text[0]?
+A."h"
+a.what will be the output of text[4]?
+A."o"
+b.what does text[-1]give?
+A."o"
+4.if name='Ajay',what is the value of name[0]+name[3]?
+A.name[0]
+  name[3]
+  print(name[0]+name[3])
+  output:AY
+a.what happens if you try name[10]?
+A.The error is "string index out of range".
+5.given s='python',what does s[5:1]return?
+A.print(s[0:2])
+a.what doess[5:1] return?
+A.as elements always tends to move fromleft to right whenever it asked to calculate from right to left it gives empty/null  string as output.
+6.predict the output for string s='python'.if the 'code is print(s[2:1:1])
+A.S="python"
+  print(s[2:-1:])
+  output:to
+7.write code to print the last 3 letters of'elephant'.
+A.str1='elephant'
+  print(str1[5:7])
+  output:an
+8.how to get only the middle 3 letters from'science'?
+A.str2='science'
+  print(str2[2:5])
+  output:ien
+9.what is the difference between s[2:5] and a[2:5:1]?
+A.str1="science"
+  print(str1[2:5])
+  print(str1[2:5:1])
+  output:ien
+         ien
+"NO difference between s[2:5] and a [2:5:1].
+
+
+
+
+
+
+
+
+
+

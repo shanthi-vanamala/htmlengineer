@@ -1,0 +1,54 @@
+1.what is a data type in python?
+A.In python, a data type is a classification that specifies the kind of value a variable can hold.it dictates how the data is stored in memory and operations can be performed on it.Every value in python is an object,and its data type is defined by the class to which it belongs.python is a dynamically typed language.meaning that it doesn't explicitly declare the data type of a variable when you create it.instead,python infers the data type based on the value assigned to the variable.
+2.List all the data type that we have in python?
+A.Numerator data type:integer,float,complex
+  Sequence data type :string,tuple,list,range
+  Boolean datatype
+  Dictionary datatype
+  Set datatype
+  Frozenset datatype
+  None datatype
+3.what is the difference between mutable and immutable data types?
+A.MUTABLE:
+     The value or content of a mutable object can be modified in place after its creation without creating a new object.
+  IMMUTABLE:
+     we cannot change the value once it is defined if we want to change then we have create another object or reassign the values.
+4.what is the difference between int,float,and complex?
+A.int,float,complex are the numeric datatypes where integer refers the value of integer value without decimal and float refers the integer value with decimal point numbers and complex has two parts real parts and imaginary part.
+5.which data type is used to represent text in python?
+A.string data type is used for the text representation.
+6.what is the output of types(521)and type("521")?
+A.print(type(521))
+  print(type("521"))
+  output:<class 'int'>
+         <class 'str'>
+7.what is the difference between list,tuple,and set?
+A.lists and sets are mutable datatypes that we can change,lists are collection of ordered elements that contain the same elements and sets are unordered elements that do not contain the same elements.Tuples are immutable datatype that cannot change it also contain the same elements.
+8.How is a dictionary different from a list?
+A.list stores item in an ordered sequence,accessed by their numerical index,while the dictionaries stores the items with key-value pairs,accessed by their unique keys.
+9.what is the default data type of a number with a decimal point?
+A.In python,when we write a number with a decimal point like 2.14 or 4.0 its automatically treated as afloat,which is pythons default decimal/real number type.
+10.Declare variables of type int,float,string,and complex.
+A.A=56
+  B=4.2
+  C="Hi"
+  D=2+3j
+11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
